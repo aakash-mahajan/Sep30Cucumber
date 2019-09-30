@@ -1,0 +1,77 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-30T05:53:20.893Z",
+        "line": 23,
+        "name": "Login with HerukoApp",
+        "description": "",
+        "id": "login-functionality;login-with-herukoapp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10958083100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on HerukoApp",
+            "match": {
+              "location": "POMTest.user_is_on_HerukoApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 846260200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter username and password",
+            "match": {
+              "location": "POMTest.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user logged in successfully",
+            "match": {
+              "location": "POMTest.user_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/LoginPOM.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
